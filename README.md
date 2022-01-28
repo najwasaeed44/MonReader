@@ -1,5 +1,12 @@
-
-
+<style type=text/css>
+        span {
+            color: green;
+            text-decoration: underline;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 26px;
+        }
+    </style>
 [//]: # (____________________________________PROJECT TITLE____________________________________)
 
 <br>
