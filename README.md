@@ -1,4 +1,4 @@
-<h1 style="color:blue;">This is a heading</h1>
+<h1 style="font-size:300%;">This is a heading</h1>
 
 <!-- [//]: # (____________________________________PROJECT TITLE____________________________________)
 
