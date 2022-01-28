@@ -12,6 +12,9 @@
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
 <br><br><br>
+<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+
 
 [//]: # (____________________________________BACKGROUND____________________________________)
 
