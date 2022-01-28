@@ -1,4 +1,5 @@
-<hr><h1>This is heading 1</h1><br><hr>
+<hr>
+## This is heading 1<br><hr>
 <!-- [//]: # (____________________________________PROJECT TITLE____________________________________)
 
 <br>
