@@ -1,8 +1,4 @@
-<body>
-    <p style="font-size:16px; color:#1c87c9;">Blue text.</p>
-    <p style="font-size:18px; color:red;">Red text, font size increased.</p>
-    <p style="font-size:18px; color:#8ebf42; font-family:arial;">Green text, typeface changed.</p>
-  </body>    
+
   
   
 [//]: # (____________________________________PROJECT TITLE____________________________________)
@@ -12,13 +8,9 @@
 
 <img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left">
 
-<p ><span style="font-size:160px;">MonReader</span></p>
+<p ><h1>MonReader</h1></p>
 <br />
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
-
-<p>
-      <font size="9" color="red">Red text, font size increased.</font>  
-    </p>
 
 [//]: # (____________________________________BACKGROUND____________________________________)
 
