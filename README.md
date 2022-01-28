@@ -35,7 +35,7 @@ MonReader is a new mobile document digitalization experience for the blind, for 
 [//]: # (____________________________________DATA DESCRIPTION____________________________________)
 
 
-<img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="60" height="60" align="left">
+<img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="70" height="70" align="left">
 
 ## Data Description:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
