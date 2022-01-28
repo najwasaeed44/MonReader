@@ -3,11 +3,12 @@
 [//]: # (____________________________________PROJECT TITLE____________________________________)
 
 <br>
-<hr style="height:4px;border-width:10;color:blue;background-color:black">
+<hr style="height:4px;border-width:10;background-color:black">
 
 <img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left">
 
 <h1 >MonReader
+  
 <hr style="height:4px;border-width:10;background-color:black">
 
 <br><br><br>
@@ -16,8 +17,8 @@
 
 <img src="https://images.genial.ly/59e059d30b9c21060cb4c2ec/5bbf17763292ef649e9b810f/175cbb1e-df65-405a-9cd0-cf177e1a2f00.gif?genial&1633910400074" width="60" height="60" align="left">
 
-## Background:
-<hr style="height:1.5px;border-width:10;color:blue;background-color:black">
+<h2 > Background:
+<hr style="height:4px;border-width:10;background-color:black">
 
 
 Our company develops innovative Artificial Intelligence and Computer Vision solutions that revolutionize industries. Machines that can see: We pack our solutions in small yet intelligent devices that can be easily integrated to your existing data flow. Computer vision for everyone: Our devices can recognize faces, estimate age and gender, classify clothing types and colors, identify everyday objects and detect motion. Technical consultancy: We help you identify use cases of artificial intelligence and computer vision in your industry. Artificial intelligence is the technology of today, not the future.
