@@ -1,7 +1,4 @@
- <p>
-      <font face="arial" color="#8ebf42">Green text, typeface changed.</font>
-    </p>
-    
+<p style="font-size:16px; color:#1c87c9;">Blue text.</p>
     
 [//]: # (____________________________________PROJECT TITLE____________________________________)
 
