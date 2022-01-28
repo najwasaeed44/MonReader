@@ -10,7 +10,6 @@
 
 <h1 >MonReader <h1>
 <!-- <hr style="height:4px;border-width:10;background-color:black"> -->
-  <hr> -->
 
 <!-- [//]: # (____________________________________BACKGROUND____________________________________)
 
