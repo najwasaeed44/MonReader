@@ -11,14 +11,9 @@
 <br />
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
-<br><br><br>
-<font color="red" size="20">
-        <b>
-            <u>
-                <i>GeeksforGeeks</i>
-            </u>
-        </b>
-    </font>
+<p>
+      <font size="3" color="red">Red text, font size increased.</font>  
+    </p>
 
 [//]: # (____________________________________BACKGROUND____________________________________)
 
