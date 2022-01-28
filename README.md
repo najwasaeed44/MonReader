@@ -1,5 +1,8 @@
-<p style="font-size:16px; color:#1c87c9;">Blue text.</p>
-    
+<body>
+    <p style="font-size:16px; color:#1c87c9;">Blue text.</p>
+    <p style="font-size:18px; color:red;">Red text, font size increased.</p>
+    <p style="font-size:18px; color:#8ebf42; font-family:arial;">Green text, typeface changed.</p>
+  </body>    
 [//]: # (____________________________________PROJECT TITLE____________________________________)
 
 <br>
