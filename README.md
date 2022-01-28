@@ -7,7 +7,7 @@
 
 <img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left">
 
-<p style="font-size:160px;">MonReader</p>
+<p ><span style="font-size:160px;">MonReader</span></p>
 <br />
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
