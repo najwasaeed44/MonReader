@@ -1,12 +1,8 @@
-<style type=text/css>
-        span {
-            color: green;
-            text-decoration: underline;
-            font-style: italic;
-            font-weight: bold;
-            font-size: 26px;
-        }
-    </style>
+ <p>
+      <font face="arial" color="#8ebf42">Green text, typeface changed.</font>
+    </p>
+    
+    
 [//]: # (____________________________________PROJECT TITLE____________________________________)
 
 <br>
