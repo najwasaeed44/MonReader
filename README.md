@@ -1,17 +1,13 @@
-<hr>
 
-## This is heading 1
-
-<br><hr>
-<!-- [//]: # (____________________________________PROJECT TITLE____________________________________)
+[//]: # (____________________________________PROJECT TITLE____________________________________)
 
 <br>
 <hr style="height:4px;border-width:10;background-color:black">
 
 <img src="img/logo.png" alt="Smiley face" width="100" height="100" align="left">
 
-<h1 >MonReader <h1>
-<!-- <hr style="height:4px;border-width:10;background-color:black"> -->
+<h1 style="color:Tomato;">MonReader </h1>
+<hr style="height:4px;border-width:10;background-color:black">
 
 <!-- [//]: # (____________________________________BACKGROUND____________________________________)
 
