@@ -8,7 +8,7 @@
 
 <img src="img/logo2.png" alt="Smiley face" width="200" height="100" align="left">
 
-<p ><h1>MonReader</h1></p>
+<h1 style="text-align:center">MonReader</h1>
 <br />
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 <br><br><br>
