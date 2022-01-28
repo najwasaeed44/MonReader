@@ -12,13 +12,13 @@
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
 <br><br><br>
-<p>My mother has <span style="color:blue">blue</span> eyes.</p>
-
-<p>GeeksforGeeks is a
-        <span style="color:red;font-weight:bolder">
-            computer science</span> portal for
-        <span style="background-color: lightgreen;">geeks</span>.
-    </p>
+<font color="009900" size="6">
+        <b>
+            <u>
+                <i>GeeksforGeeks</i>
+            </u>
+        </b>
+    </font>
 
 [//]: # (____________________________________BACKGROUND____________________________________)
 
