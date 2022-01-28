@@ -11,7 +11,7 @@
   
 <hr style="height:4px;border-width:10;background-color:black">
 
-[//]: # (____________________________________BACKGROUND____________________________________)
+<!-- [//]: # (____________________________________BACKGROUND____________________________________)
 
 <img src="https://images.genial.ly/59e059d30b9c21060cb4c2ec/5bbf17763292ef649e9b810f/175cbb1e-df65-405a-9cd0-cf177e1a2f00.gif?genial&1633910400074" width="60" height="60" align="left">
 
@@ -85,9 +85,10 @@ I used 5 different strategies to find the similarities between the targeted sent
   <img src="img/BERT model 2.png" width="500px">
 </h1>
 
-
-As for the Ranking model, I run the RankNet model on the data and our best loos score is 48%. I believe the data size play a major role to get this result, even TF-IDF gives us a more reliable result in my opinion than the RankNet model as in the next image.
+ -->
+<!-- As for the Ranking model, I run the RankNet model on the data and our best loos score is 48%. I believe the data size play a major role to get this result, even TF-IDF gives us a more reliable result in my opinion than the RankNet model as in the next image.
 
 <h1 align="center">
   <img src="img/RankNet model.png" width="500px">
 </h1>
+ -->
