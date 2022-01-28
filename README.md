@@ -6,7 +6,7 @@
 <br>
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
-<img src="img/logo2.png" alt="Smiley face" width="100" height="100" align="left">
+<img src="img/logo2.png" alt="Smiley face" width="300" height="300" align="left">
 
 <p ><h1>MonReader</h1></p>
 <br />
