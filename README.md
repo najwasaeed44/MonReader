@@ -11,7 +11,7 @@
 <p ><h1>MonReader</h1></p>
 <br />
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
-
+<br><br><br>
 [//]: # (____________________________________BACKGROUND____________________________________)
 
 <img src="https://images.genial.ly/59e059d30b9c21060cb4c2ec/5bbf17763292ef649e9b810f/175cbb1e-df65-405a-9cd0-cf177e1a2f00.gif?genial&1633910400074" width="60" height="60" align="left">
@@ -35,7 +35,7 @@ MonReader is a new mobile document digitalization experience for the blind, for 
 [//]: # (____________________________________DATA DESCRIPTION____________________________________)
 
 
-<img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="70" height="70" align="left">
+<img src="https://media.baamboozle.com/uploads/images/67969/1595412283_471863" alt="Smiley face" width="60" height="70" align="left">
 
 ## Data Description:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
@@ -60,34 +60,3 @@ Predict if the page is being flipped using a single image.
 
 ## Project Overview:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
-
-I used 5 different strategies to find the similarities between the targeted sentences and each job title as follows:
-
-1. **`TF-IDF`**.
-
-2. **`GloVe `**.
-
-3. **`Word2Vec`** ==> `Google News` model.
-
-4. **`FastText`**.
-
-5. **`BERT`**.
-
-**BERT** model was one of the best model to find the similarity between our data and the targeted phrase **(aspiring human resources)** as we can see the next images.
-
-
-
-<h1 align="center">
-  <img src="img/BERT model 1.png" width="500px">
-</h1>
-
-<h1 align="center">
-  <img src="img/BERT model 2.png" width="500px">
-</h1>
-
-
-As for the Ranking model, I run the RankNet model on the data and our best loos score is 48%. I believe the data size play a major role to get this result, even TF-IDF gives us a more reliable result in my opinion than the RankNet model as in the next image.
-
-<h1 align="center">
-  <img src="img/RankNet model.png" width="500px">
-</h1>
