@@ -12,7 +12,7 @@
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
 <p>
-      <font size="3" color="red">Red text, font size increased.</font>  
+      <font size="9" color="red">Red text, font size increased.</font>  
     </p>
 
 [//]: # (____________________________________BACKGROUND____________________________________)
