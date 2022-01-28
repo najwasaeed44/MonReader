@@ -12,7 +12,7 @@
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 
 <br><br><br>
-<font color="009900" size="6">
+<font color="red" size="20">
         <b>
             <u>
                 <i>GeeksforGeeks</i>
