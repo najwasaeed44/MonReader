@@ -14,7 +14,11 @@
 <br><br><br>
 <p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
-
+<p>GeeksforGeeks is a
+        <span style="color:red;font-weight:bolder">
+            computer science</span> portal for
+        <span style="background-color: lightgreen;">geeks</span>.
+    </p>
 
 [//]: # (____________________________________BACKGROUND____________________________________)
 
