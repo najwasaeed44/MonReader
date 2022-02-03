@@ -50,6 +50,8 @@ We collected page flipping video from smart phones and labelled them as flipping
 
 We clipped the videos as short videos and labelled them as flipping or not flipping. The extracted frames are then saved to disk in a sequential order with the following naming structure: VideoID_FrameNumber.
 
+<br><br>
+
 
 [//]: # (____________________________________ATTRIBUTES____________________________________)
 
@@ -59,6 +61,9 @@ We clipped the videos as short videos and labelled them as flipping or not flipp
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
 
 Predict if the page is being flipped using a single image.
+
+<br><br>
+
 
 [//]: # (____________________________________PROJECT OVERVIEW____________________________________)
 
@@ -75,9 +80,8 @@ The original data set size was `1080 * 1920` pixels with two classes, `flip` and
 
 As for the preprocessing, the data size was reduced to `100 * 70` pixels and scaling was applied by dividing the pixels by **225**. The result is shown in the next image.
 
-<h1 align="center">
-  <img src="img/preprocess_data.png" width="600px" height="400px">
-</h1>
+
+<div align="center"><img src="img/preprocess_data.jpg" alt="Logo" width="600px" height="400px"></div>
 
 For the model, different hyperparameters were tested like:
 - `tanh` and `relu` as activation functions.
@@ -85,38 +89,30 @@ For the model, different hyperparameters were tested like:
 
 All of the models accuracy and loss scores are shown in the following images:
 
-<h1 align="center">
-  <img src="img/acc_all.png" width="700px" height="300px">
-</h1>
 
-<h1 align="center">
-  <img src="img/val_all.png" width="700px" height="300px">
-</h1>
+<div align="center"><img src="img/acc_all.jpg" alt="Logo" width="700px" height="300"></div>
+
+<div align="center"><img src="img/val_all.jpg" alt="Logo" width="700px" height="300"></div>
+
 
 In order to compare the models, I divide them based on the learning rate. First of all, the loss scores with **0.0001** learning rate, we can see the loss decreased with the time gradually and the than activation function perform better than the relu. In the second image, we can see the loss score for the **0.001** learning rate. From the figure, it's clear that the tanh activation function exceeds the relu, not in the final score only but also in how fast it decreased. And in the final image, the learning rate was the biggest one which is **0.1**. As for the loss score, it's clear the relu is performed much better than tanh. With tanh activation function the model stopped improving at the 8ith epoch with **5** patients, which means the model stopped learning after the third epoch!
 
-<h1 align="center">
-  <img src="img/val_0.0001.png" width="500px" height="300px">
-</h1>
 
-<h1 align="center">
-  <img src="img/val_0.001.png" width="500px" height="300px">
-</h1>
+<div align="center"><img src="img/val_0.0001.jpg" alt="Logo" width="500px" height="300px"></div>
 
-<h1 align="center">
-  <img src="img/val_0.01.png" width="500px" height="300px">
-</h1>
+<div align="center"><img src="img/val_0.001.jpg" alt="Logo" width="500px" height="300px"></div>
+
+<div align="center"><img src="img/val_0.01.jpg" alt="Logo" width="500px" height="300px"></div>
+
 
 Therefore, both of **tanh** activation function and **0.001** learning rate was chosen for the final model. As we can see in the first image, the final accuracy score for the training images is `100%` and `99.9%` for the validation images. In the second picture, the training loss was `3.55 *10-3` and `0.04` for validation images.
 
-<h1 align="center">
-  <img src="img/final_model_acc.png" width="500px" height="300px">
-</h1>
 
-<h1 align="center">
-  <img src="img/final_model_val.png" width="500px" height="300px">
-</h1>
+<div align="center"><img src="img/final_model_acc.jpg" alt="Logo" width="500px" height="300px"></div>
 
+<div align="center"><img src="img/final_model_val.jpg" alt="Logo" width="500px" height="300px"></div>
+
+<br><br>
 
 [//]: # (&#40;____________________________________ CONCLUSION____________________________________&#41;)
 
