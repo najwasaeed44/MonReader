@@ -74,14 +74,13 @@ Predict if the page is being flipped using a single image.
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
 
 The original data set size was `1080 * 1920` pixels with two classes, `flip` and `notflip` class as in the following picture.
-<h1 align="center">
-  <img src="img/original_data.png" width="600px" height="400px">
-</h1>
+
+<div align="center"><img src="img/original_data.jpg" alt="Logo" width="600px" height="400px"></div>
 
 As for the preprocessing, the data size was reduced to `100 * 70` pixels and scaling was applied by dividing the pixels by **225**. The result is shown in the next image.
 
 
-<div align="center"><img src="img/preprocess_data.jpg" alt="Logo" width="600px" height="400px"></div>
+<div align="center"><img src="img/preprocess_data.png" alt="Logo" width="600px" height="400px"></div>
 
 For the model, different hyperparameters were tested like:
 - `tanh` and `relu` as activation functions.
