@@ -75,7 +75,7 @@ Predict if the page is being flipped using a single image.
 
 The original data set size was `1080 * 1920` pixels with two classes, `flip` and `notflip` class as in the following picture.
 
-<div align="center"><img src="img/original data.png" alt="Logo" width="600px" height="400px"></div>
+<div align="center"><img src="img/original_data.png" alt="Logo" width="600px" height="400px"></div>
 
 As for the preprocessing, the data size was reduced to `100 * 70` pixels and scaling was applied by dividing the pixels by **225**. The result is shown in the next image.
 
