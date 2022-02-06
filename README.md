@@ -108,17 +108,17 @@ As for the preprocessing, the data size was reduced to `100 * 70` pixels and sca
 
       <div align="center"><img src="img/exp1_val_0.0001.png"  width="550px" height="350px"></div><br>
 
-      <div align="center"><img src="img/exp1_val_0.001.png"  width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/exp1_val_0.001.png"  width="550px" height="350px"></div><br>
 
-      <div align="center"><img src="img/exp1_val_0.01.png" width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/exp1_val_0.01.png" width="550px" height="350px"></div><br>
 
 
       Therefore, both of **tanh** activation function and **0.001** learning rate was chosen for the final model. As we can see in the first image, the final accuracy score for the training images is `100%` and `99.9%` for the validation images. In the second picture, the training loss was `0.017` and `0.04` for validation images.
 
 
-      <div align="center"><img src="img/final_model_acc.png"  width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/final_model_acc.png"  width="550px" height="350px"></div><br>
 
-      <div align="center"><img src="img/final_model_val.png"  width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/final_model_val.png"  width="550px" height="350px"></div><br>
 
       <br><br>
       
