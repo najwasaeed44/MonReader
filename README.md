@@ -87,8 +87,11 @@ As for the preprocessing, the data size was reduced to `100 * 70` pixels and sca
 ### Modeling:
 
   - ### **1) Model Architecture**
+      The model consists of 2 CNN layers, 2 Max Pooling layers with 2*2 and finally 2 dense layers.
+      <div align="center"><img src="img/model.png" alt="Logo" width="600px" height="400px"></div><br>
+
   - ### **2) Training and Optimization**:
-    For the model, different hyperparameters were tested like:
+    The model was tested with different hyperparameters like:
       - `tanh` and `relu` as activation functions.
       - `0.0001`, `0.001` and `0.1` as a learning rate.
 
@@ -100,17 +103,17 @@ As for the preprocessing, the data size was reduced to `100 * 70` pixels and sca
       <div align="center"><img src="img/exp_1_val_all.png" alt="Logo" width="700px" height="300"></div><br>
 
 
-      In order to compare the models, I divide them based on the learning rate. First of all, the loss scores with **0.0001** learning rate, we can see the loss decreased with the time gradually and the than activation function perform better than the relu. In the second image, we can see the loss score for the **0.001** learning rate. From the figure, it's clear that the tanh activation function exceeds the relu, not in the final score only but also in how fast it decreased. And in the final image, the learning rate was the biggest one which is **0.1**. As for the loss score, it's clear the relu is performed much better than tanh. With tanh activation function the model stopped improving at the 8ith epoch with **5** patients, which means the model stopped learning after the third epoch!
+      In order to compare the models, I will compare them based on the learning rate. First of all, the loss scores with **0.0001** learning rate, we can see the loss decreased with the time gradually and the `thanh` activation function perform better than the `relu`. In the second image, we can see the loss score for the **0.001** learning rate. From the figure, it's clear that the `tanh` activation function exceeds the `relu`, not in the final score only but also in how fast it decreased. And in the final image, the learning rate was the biggest one which is **0.1**. It's clear from the image, this is the worst learning rate for this data with both of `relu` and `tanh` activation functions.
 
 
       <div align="center"><img src="img/exp1_val_0.0001.png" alt="Logo" width="500px" height="300px"></div><br>
 
       <div align="center"><img src="img/exp1_val_0.001.png" alt="Logo" width="500px" height="300px"></div><br>
 
-      <div align="center"><img src="img/exp1_val_0.01.png" alt="Logo" width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/exp1_val_0.01.png" width="500px" height="300px"></div><br>
 
 
-      Therefore, both of **tanh** activation function and **0.001** learning rate was chosen for the final model. As we can see in the first image, the final accuracy score for the training images is `100%` and `99.9%` for the validation images. In the second picture, the training loss was `3.55 *10-3` and `0.04` for validation images.
+      Therefore, both of **tanh** activation function and **0.001** learning rate was chosen for the final model. As we can see in the first image, the final accuracy score for the training images is `100%` and `99.9%` for the validation images. In the second picture, the training loss was `0.017` and `0.04` for validation images.
 
 
       <div align="center"><img src="img/final_model_acc.png" alt="Logo" width="500px" height="300px"></div><br>
@@ -118,7 +121,9 @@ As for the preprocessing, the data size was reduced to `100 * 70` pixels and sca
       <div align="center"><img src="img/final_model_val.png" alt="Logo" width="500px" height="300px"></div><br>
 
       <br><br>
+      
   - ### **3) Testing**
+      The accuracy for the test data is `99.7%`, and the confusion matrix confirms that. It looks like the model performs slightly better in the `flip` class more than `not flip` and this is can be justified by the difference between the number of images in each class.
 
 
       <div align="center"><img src="img/test_confusion.png" alt="Logo" width="500px" height="300px"></div><br>
@@ -133,7 +138,6 @@ As for the preprocessing, the data size was reduced to `100 * 70` pixels and sca
 ## Conclusion:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
 
-Different model hyperparameters were tested and in general, most of the models prefer well in the range of **10** epochs. For the learning rate, `0.001` give us the highest score and then `0.0001` and finally `0.1`. As for the activation function, there is no bad one, `tanh` gives a better result with a small learning rate like **0.0001** and **0.001** and for a big learning rate like **0.1**, `relu` gives a better result.
-
-Our best model test score is `99.7%` with a loss equal to `0.0371`.
+Different model hyperparameters were tested and in general, some of the models prefer well in the range of **10** epochs. 
+Our best model test score is `99.7%` with a loss equal to `0.046`.
 
