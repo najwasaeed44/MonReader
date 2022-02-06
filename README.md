@@ -73,45 +73,57 @@ Predict if the page is being flipped using a single image.
 ## Project Overview:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
 
+### data preprocessing:
+
 The original data set size was `1080 * 1920` pixels with two classes, `flip` and `notflip` class as in the following picture.
 
 <div align="center"><img src="img/original_data.png" alt="Logo" width="600px" height="400px"></div>
 
 As for the preprocessing, the data size was reduced to `100 * 70` pixels and scaling was applied by dividing the pixels by **225**. The result is shown in the next image.
 
-
 <div align="center"><img src="img/preprocess_data.png" alt="Logo" width="600px" height="400px"></div><br>
 
-For the model, different hyperparameters were tested like:
-- `tanh` and `relu` as activation functions.
-- `0.0001`, `0.001` and `0.1` as a learning rate.
 
-All of the models accuracy and loss scores are shown in the following images:
+### Modeling:
 
+  - ### **1) Model Architecture**
+  - ### **2) Training and Optimization**:
+    For the model, different hyperparameters were tested like:
+      - `tanh` and `relu` as activation functions.
+      - `0.0001`, `0.001` and `0.1` as a learning rate.
 
-<div align="center"><img src="img/acc_all.png" alt="Logo" width="700px" height="300"></div><br>
-
-<div align="center"><img src="img/val_all.png" alt="Logo" width="700px" height="300"></div><br>
-
-
-In order to compare the models, I divide them based on the learning rate. First of all, the loss scores with **0.0001** learning rate, we can see the loss decreased with the time gradually and the than activation function perform better than the relu. In the second image, we can see the loss score for the **0.001** learning rate. From the figure, it's clear that the tanh activation function exceeds the relu, not in the final score only but also in how fast it decreased. And in the final image, the learning rate was the biggest one which is **0.1**. As for the loss score, it's clear the relu is performed much better than tanh. With tanh activation function the model stopped improving at the 8ith epoch with **5** patients, which means the model stopped learning after the third epoch!
+      All of the models accuracy and loss scores are shown in the following images:
 
 
-<div align="center"><img src="img/val_0.0001.png" alt="Logo" width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/acc_all.png" alt="Logo" width="700px" height="300"></div><br>
 
-<div align="center"><img src="img/val_0.001.png" alt="Logo" width="500px" height="300px"></div><br>
-
-<div align="center"><img src="img/val_0.01.png" alt="Logo" width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/val_all.png" alt="Logo" width="700px" height="300"></div><br>
 
 
-Therefore, both of **tanh** activation function and **0.001** learning rate was chosen for the final model. As we can see in the first image, the final accuracy score for the training images is `100%` and `99.9%` for the validation images. In the second picture, the training loss was `3.55 *10-3` and `0.04` for validation images.
+      In order to compare the models, I divide them based on the learning rate. First of all, the loss scores with **0.0001** learning rate, we can see the loss decreased with the time gradually and the than activation function perform better than the relu. In the second image, we can see the loss score for the **0.001** learning rate. From the figure, it's clear that the tanh activation function exceeds the relu, not in the final score only but also in how fast it decreased. And in the final image, the learning rate was the biggest one which is **0.1**. As for the loss score, it's clear the relu is performed much better than tanh. With tanh activation function the model stopped improving at the 8ith epoch with **5** patients, which means the model stopped learning after the third epoch!
 
 
-<div align="center"><img src="img/final_model_acc.png" alt="Logo" width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/val_0.0001.png" alt="Logo" width="500px" height="300px"></div><br>
 
-<div align="center"><img src="img/final_model_val.png" alt="Logo" width="500px" height="300px"></div><br>
+      <div align="center"><img src="img/val_0.001.png" alt="Logo" width="500px" height="300px"></div><br>
 
-<br><br>
+      <div align="center"><img src="img/val_0.01.png" alt="Logo" width="500px" height="300px"></div><br>
+
+
+      Therefore, both of **tanh** activation function and **0.001** learning rate was chosen for the final model. As we can see in the first image, the final accuracy score for the training images is `100%` and `99.9%` for the validation images. In the second picture, the training loss was `3.55 *10-3` and `0.04` for validation images.
+
+
+      <div align="center"><img src="img/final_model_acc.png" alt="Logo" width="500px" height="300px"></div><br>
+
+      <div align="center"><img src="img/final_model_val.png" alt="Logo" width="500px" height="300px"></div><br>
+
+      <br><br>
+  - ### **3) Testing**
+
+
+
+
+
 
 [//]: # (&#40;____________________________________ CONCLUSION____________________________________&#41;)
 
