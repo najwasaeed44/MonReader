@@ -106,7 +106,7 @@ As for the preprocessing, the data size was reduced to `100 * 70` pixels and sca
       In order to compare the models, I will compare them based on the learning rate. First of all, the loss scores with **0.0001** learning rate, we can see the loss decreased with the time gradually and the `thanh` activation function perform better than the `relu`. In the second image, we can see the loss score for the **0.001** learning rate. From the figure, it's clear that the `tanh` activation function exceeds the `relu`, not in the final score only but also in how fast it decreased. And in the final image, the learning rate was the biggest one which is **0.1**. It's clear from the image, this is the worst learning rate for this data with both of `relu` and `tanh` activation functions.
 
 
-      <div align="center"><img src="img/exp1_val_0.0001.png"  width="600px" height="400px"></div><br>
+      <div align="center"><img src="img/exp1_val_0.0001.png"  width="650px" height="300px"></div><br>
 
       <div align="center"><img src="img/exp1_val_0.001.png"  width="500px" height="300px"></div><br>
 
