@@ -4,12 +4,13 @@
 [//]: # (____________________________________PROJECT TITLE____________________________________)
 
 <br>
-<hr style="height:4px;border-width:10;color:blue;background-color:black">
 
-<img src="img/logo2.png"  width="200" height="100" align="left">
-
-<h1 >MonReader</h1>
-<br />
+<h1 align="center">
+  <img src=https://github.com/najwasaeed44/data-science-project-theme/blob/main/img/logo.png?raw=true" width="100px"/><br/><br>
+MonReader
+</h1>
+                                                                                                                    
+                                                                                                                  
 <hr style="height:4px;border-width:10;color:blue;background-color:black">
 <br><br><br>
 
