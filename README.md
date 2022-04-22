@@ -139,5 +139,4 @@ As for the preprocessing, the data size was reduced to `100 * 70` pixels and sca
 ## Conclusion:
 <hr style="height:1.5px;border-width:10;color:blue;background-color:black">
 
-Different model hyperparameters were tested and in general, some of the models prefer well in the range of **10** epochs. From the training and optimization section, it's clear this data prefer a learning rate of around 0.001 and tanh activation function better than relu. Our best model test score is `99.7%` with a loss equal to `0.046`.
-
+In this project, voices cloning has been done, to me and to my hearing some of the cloned audios seem like a real one or a real person but with noise in the background, even with this, the machine can classify both of the classes perfectly or with high accuracy if we remove the noise. In general, more samples for each speaker lead to more accurate cloning.  
